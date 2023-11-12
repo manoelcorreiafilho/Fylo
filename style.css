@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins & família = Raleway & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Poppins & family= Raleway & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.hearder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 40px;
+    background-color: hsl(217, 28%, 15%);
+}
+.logoSite{
+    width: 120px;
+}
+.conteiner-mais{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ancMais{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.ancMais:hover{
+    text-decoration: underline;
+}
+.inPage{
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    gap: 40px;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', helvetica, sans-serif ;
+
+}
+.img-inPage{
+    width: 700px;
+}
+.title-inPage{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 2.8rem;
+    width: 900px;
+
+}
+.subTitle-inPage{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    width: 650px;
+}
+.butt-inPage{
+    display: flex;
+    height: 60px;
+    width: 310px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+    cursor: pointer;
+}
+.butt-inPage:hover{
+    background-color: hsl(198, 59%, 38%);
+
+}
+.mPage{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px 200px 40px;
+    flex-wrap: wrap;
+    background-color: hsl(218, 28%, 13%);
+}
+.cards-mPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.cards-mPage:hover{
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+.imgIcos-cards{
+    width: 80px;
+}
+.sec3-page{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+
+}
+.imgStay-sec3-page{
+    width: 500px;
+}
+.cardStay-sec3-page{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 500px;
+    gap: 20px;
+}
+.title-sec3-page{
+    font-size: 2rem;
+}
+.ancStay-sec3-page{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    width: 165px;
+    padding: 0 0 3px;
+}
+.sec4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: hsl(218, 28%, 13%);
+    height: 100vh;
+    background-image: url(../images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position-y: 170px;
+    background-position-x: 90px;
+}
+.cards-sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 320px;
+    height: 160px;
+    padding: 20px;
+    gap: 10px;
+    background-color: hsl(217, 28%, 15%);
+    color: #fff;
+}
+.conteinerUsuario-cards-sec4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.img-usu{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nameUsu-cards-sec4{
+    font-size: 0.9rem;
+}
+.parEspUs-cards-sec4{
+    font-size: 0.7rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background-color: hsl(216, 53%, 9%);
+}
+.card-footer{
+    position: absolute;
+    margin-bottom: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 640px;
+    gap: 20px;
+    padding: 20px;
+    background-color: hsl(217, 28%, 15%);
+    color: #fff;
+}
+.par-card-footer{
+    font-size: 0.9rem;
+}
+.inp-conteiner-card-footer{
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    width: 320px;
+    outline: none;
+    text-align: center;
+}
+.butt-conteiner-card-footer{
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    width: 160px;
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.butt-conteiner-card-footer:hover{
+    background-color: rgb(21, 128, 174);
+
+}
+.sec-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card-sec-footer{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+}
+.logo-card-sec-footer{
+    width: 120px;
+}
+.conteiner-card-sec-footer{
+    gap: 20px;
+    display: flex;
+    color: #fff;
+}
+.iconLoc-conteiner-card-sec-footer{
+    width: 20px;
+    height: 20px;
+}
+.card-sec-footer-2{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    flex-direction: column;
+    width: 180px;
+    padding: 20px;
+}
+.conteiner-card2-sec-footer{
+    display: flex;
+    color: #fff;
+    gap: 10px;
+}
+.card-sec-footer-3{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.card-sec-footer-3 ol{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+
+}
+.anc-card-sec-footer{
+    text-decoration: none;
+    color: #fff;
+}
+.anc-card-sec-footer:hover{
+    text-decoration: underline;
+}
+.card-sec-footer-4{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    padding: 20px;
+    color: #fff;
+}
+.icon-card-sec-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 2px;
+    
+}
+@media(max-width: 760px){
+    @import url('https://fonts.googleapis.com/css2? family= Poppins & família = Raleway & display=swap');
+    @import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Poppins & family= Raleway & display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .hearder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 20px;
+        background-color: hsl(217, 28%, 15%);
+    }
+    .logoSite{
+        width: 80px;
+    }
+    .conteiner-mais{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ancMais{
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .ancMais:hover{
+        text-decoration: underline;
+    }
+    .inPage{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        gap: 40px;
+        align-items: center;
+        background-color: hsl(217, 28%, 15%);
+        background-image: url(../images/bg-curvy-mobile.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain ;
+        font-family: 'Open Sans', helvetica, sans-serif ;
+
+    }
+    .img-inPage{
+        width: 220px;
+    }
+    .title-inPage{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+        font-size: 1.5rem;
+        width: 100%;
+
+    }
+    .subTitle-inPage{
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        width: 90%;
+    }
+    .butt-inPage{
+        display: flex;
+        height: 40px;
+        width: 70%;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: hsl(198, 60%, 50%);
+        color: #fff;
+        cursor: pointer;
+    }
+    .butt-inPage:hover{
+        background-color: hsl(198, 59%, 38%);
+
+    }
+    .mPage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 80px;
+        padding: 0;
+        flex-wrap: wrap;
+        background-color: hsl(218, 28%, 13%);
+    }
+    .cards-mPage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        height: 250px;
+        color: #fff;
+    }
+    .imgIcos-cards{
+        width: 80px;
+    }
+    .sec3-page{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        gap: 80px;
+        align-items: center;
+        background-color: hsl(218, 28%, 13%);
+
+    }
+    .imgStay-sec3-page{
+        width: 250px;
+    }
+    .cardStay-sec3-page{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        width: 80%;
+        gap: 20px;
+    }
+    .title-sec3-page{
+        font-size: 1.5rem;
+    }
+    .ancStay-sec3-page{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 4px;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        width: 165px;
+        padding: 0 0 3px;
+    }
+    .sec4{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background-color: hsl(218, 28%, 13%);
+        height: 100vh;
+        padding-top: 160px;
+        padding-bottom: 250px;
+        background-image: url(../images/bg-quotes.png);
+        background-repeat: no-repeat;
+        background-position-y: 170px;
+        background-position-x: 90px;
+    }
+    .cards-sec4{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: 80%;
+        height: 100px;
+        padding: 20px;
+        gap: 10px;
+        font-size: 0.8rem;
+        background-color: hsl(217, 28%, 15%);
+        color: #fff;
+    }
+    .conteinerUsuario-cards-sec4{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .img-usu{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .nameUsu-cards-sec4{
+        font-size: 0.9rem;
+    }
+    .parEspUs-cards-sec4{
+        font-size: 0.7rem;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        background-color: hsl(216, 53%, 9%);
+    }
+    .card-footer{
+        position: absolute;
+        margin-bottom: 150%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 80%;
+        height: 40%;
+        gap: 20px;
+        padding: 20px;
+        background-color: hsl(217, 28%, 15%);
+        color: #fff;
+    }
+    .par-card-footer{
+        font-size: 0.9rem;
+    }
+    .conteiner-card-footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .inp-conteiner-card-footer{
+        display: flex;
+        height: 30px;
+        border-radius: 100px;
+        border: none;
+        width: 100%;
+        outline: none;
+        text-align: center;
+    }
+    .butt-conteiner-card-footer{
+        height: 30px;
+        border-radius: 100px;
+        border: none;
+        width: 100%;
+        background-color: hsl(198, 60%, 50%);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .butt-conteiner-card-footer:hover{
+        background-color: rgb(21, 128, 174);
+
+    }
+    .sec-footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 200px;
+        height: 100%;
+        justify-content: center;
+        gap: 40px;
+    }
+    .card-sec-footer{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .logo-card-sec-footer{
+        width: 120px;
+    }
+    .conteiner-card-sec-footer{
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+    .iconLoc-conteiner-card-sec-footer{
+        width: 20px;
+        height: 20px;
+    }
+    .card-sec-footer-2{
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        flex-direction: column;
+        width: 180px;
+        padding: 20px;
+    }
+    .conteiner-card2-sec-footer{
+        display: flex;
+        color: #fff;
+        gap: 10px;
+        width: 100%;
+    }
+    .card-sec-footer-3{
+        display: flex;
+        gap: 40px;
+        align-items: start;
+    }
+    .card-sec-footer-3 ol{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+    
+    }
+    .anc-card-sec-footer{
+        text-decoration: none;
+        color: #fff;
+    }
+    .anc-card-sec-footer:hover{
+        text-decoration: underline;
+    }
+    .card-sec-footer-4{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+
+    }
+    .icon-card-sec-footer{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        padding: 2px;
+        
+    }
+}
