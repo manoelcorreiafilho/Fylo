@@ -38,7 +38,8 @@
     align-items: center;
     background-color: hsl(217, 28%, 15%);
     background-image: url(https://manoelfilhocorr.github.io/Fylo/images/bg-curvy-desktop.svg);
-    background-position: top;
+    background-position: bottom;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Open Sans', helvetica, sans-serif ;
 
@@ -355,6 +356,7 @@
         background-image: url(https://manoelfilhocorr.github.io/Fylo/images/bg-curvy-mobile.svg);
         background-position: bottom;
         background-repeat: no-repeat;
+        background-size: cover;
         background-size: contain ;
         font-family: 'Open Sans', helvetica, sans-serif ;
 
